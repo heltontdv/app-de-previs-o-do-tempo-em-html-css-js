@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: 'Sedan SC', sans-serif;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+.caixa-maior{
+    background: #000000;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.input-cidade{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius:25px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #ffffffff;
+    width: calc(100% - 100px);
+}
+
+.botao-busca{
+      border: none;
+      outline: none;
+      padding: 10px;
+      border-radius: 50px;
+      background-color:  #7c7c7c2b;
+      cursor: pointer;
+      float: right;
+}
+
+.img-busca{
+      width: 20px ;
+}
+
+.caixa-media{
+    margin-top: 30px;
+}
+.cidade{
+    color: #ffffffff;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.temp{
+    font-size: 20px;
+    color: #ffffffff;
+    margin-top: 20px;
+}
+
+.caixa-menor{
+    display:flex ;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.texto-previsao{
+    color: #ffffffff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.umidade{
+    color: #ffffffff;
+    margin-top:20px; ;
+}
